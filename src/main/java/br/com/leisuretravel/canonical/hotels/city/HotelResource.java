@@ -1,5 +1,6 @@
 package br.com.leisuretravel.canonical.hotels.city;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import lombok.Getter;
@@ -14,4 +15,5 @@ public class HotelResource {
 	private Integer cityCode;
 	private String cityName;
 	private List<Room> rooms;
+	private BigDecimal totalPrice;
 }
